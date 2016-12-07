@@ -1,6 +1,5 @@
 {
     "plugins": [
-        "theme-open-docs",
         "-share",
         "edit-link",
         "richquotes",
@@ -33,6 +32,6 @@
             "all": [
                 "twitter", "facebook", "google", "instapaper"
             ]
-}
+        }
     }
 }
