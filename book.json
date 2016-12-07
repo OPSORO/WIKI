@@ -1,8 +1,5 @@
 {
     "plugins": [
-        "9dots-style",
-        "youtube",
-        "language-picker"
     ],
     "pluginsConfig": {}
 }
