@@ -1,6 +1,7 @@
 {
     "plugins": [
-        "9dots-style"
+        "9dots-style",
+        "youtube"
     ],
     "pluginsConfig": {}
 }
