@@ -1,4 +1,6 @@
-About OPSORO
+![](OfficalLogoOPSORO.jpg)
+
+#About OPSORO
 
 Welcome to OPSORO, an Open Platform for making Social Robots.
 
