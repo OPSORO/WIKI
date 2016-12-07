@@ -2,7 +2,7 @@
 
 #OPSORO WIKI
 
-Welcome to the [OPSORO-WIKI](http://wiki.opsoro.be) !
+Welcome to the [OPSORO-WIKI](http://wiki.opsoro.be)!
 
 This wiki is meant to easily guide you through the whole process of making your own social robot(s). 
 
