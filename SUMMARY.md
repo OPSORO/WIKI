@@ -2,12 +2,12 @@
 
 * [Introduction](README.md)
 * Getting started
-   * [Rules of Thumb](rules_of_thumb.md)
+   * Rules of Thumb
    * Design Board
    * Skin
 * Module Guides
-   * Heart
-   * Speaker
+   * [Heart](modules/heart.md)
+   * [Speaker](modules/speaker.md)
    * Eye
    * Turn
 
