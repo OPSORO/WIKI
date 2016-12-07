@@ -7,7 +7,8 @@ OPSORO is designed using (1) only standard parts that can easily be found/bought
    
 2. ####Voltage & Danger
 
-
-
 3. ####Software
+
+
+
 
