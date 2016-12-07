@@ -1,6 +1,7 @@
 # Summary
 
-* [Introduction]
+* [Introduction](README.md)
+* [[Introduction]](introduction.md)
 * Getting started
    * Rules of Thumb
    * Design Board
