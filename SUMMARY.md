@@ -8,6 +8,6 @@
 * Module Guides
    * [Heart](modules/heart.md)
    * [Speaker](modules/speaker.md)
-   * Eye
+   * [Eye](modules/eye.md)
    * Turn
 
