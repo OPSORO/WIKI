@@ -3,7 +3,7 @@
 * [Introduction](README.md)
 * Getting started
    * [Rules of Thumb](getting_started/rules_of_thumb.md)
-   * [Design Board](design_board.md)
+   * [Design Board](getting_started/design_board.md)
    * [Skin](skin.md)
 * Module Guides
    * [Heart](modules/heart.md)
