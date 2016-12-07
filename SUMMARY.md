@@ -2,7 +2,7 @@
 
 * [Introduction](README.md)
 * Getting started
-   * [Rules of Thumb](rules_of_thumb.md)
+   * [Rules of Thumb](getting_started/rules_of_thumb.md)
    * [Design Board](design_board.md)
    * [Skin](skin.md)
 * Module Guides
