@@ -10,7 +10,7 @@
     ],
     "pluginsConfig": {
         "github": {
-            "url": "github.com/OPSORO/WIKI"
+            "url": "https://github.com/OPSORO/WIKI"
         }
     }
 }
