@@ -1,8 +1,7 @@
 {
     "plugins": [
         "language-picker",
-        "github",
-        "youtube"
+        "github"
     ],
     "pluginsConfig": {
         "language-picker": {
