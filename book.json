@@ -11,6 +11,13 @@
         },
         "github": {
             "url": "https://github.com/OPSORO/WIKI"
+        },
+        "sharing": {
+            "facebook": false,
+            "twitter": false,
+            "all": [
+                "twitter", "facebook", "google", "instapaper"
+            ]
         }
     }
 }
