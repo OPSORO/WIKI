@@ -10,5 +10,6 @@
    * [Speaker](modules/speaker.md)
    * [Eye](modules/eye.md)
    * [Turn](modules/turn.md)
-* [Installation]()
-   * Raspberry Pi
+* Installation
+   * [Raspberry Pi](installation/raspberry_pi.md)
+
