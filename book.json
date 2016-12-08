@@ -8,5 +8,9 @@
         "language-picker",
         "youtube"
     ],
-    "pluginsConfig": {}
+    "pluginsConfig": {
+        "github": {
+            "url": "github.com/OPSORO/WIKI"
+        }
+    }
 }
