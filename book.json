@@ -1,7 +1,8 @@
 {
     "plugins": [
         "language-picker",
-        "share"
+        "share",
+        "edit-link"
     ],
     "pluginsConfig": {
         "language-picker": {
