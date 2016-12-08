@@ -1,4 +1,4 @@
-#OPSORO WIKIdsd
+#OPSORO WIKI
 
 Welcome to the [OPSORO-WIKI](http://wiki.opsoro.be)!
 
