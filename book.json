@@ -1,7 +1,8 @@
 {
     "plugins": [
         "language-picker",
-        "share"
+        "share",
+        "github"
     ],
     "pluginsConfig": {
         "language-picker": {
