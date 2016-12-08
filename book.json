@@ -1,1 +1,11 @@
-{}
+{
+    "plugins": [
+        "-share",
+        "edit-link",
+        "richquotes",
+        "heading-anchors",
+        "github",
+        "language-picker",
+        "youtube"
+    ]
+}
