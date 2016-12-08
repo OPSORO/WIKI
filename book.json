@@ -2,8 +2,7 @@
     "plugins": [
         "language-picker",
         "github",
-        "youtube",
-        "share"
+        "youtube"
     ],
     "pluginsConfig": {
         "language-picker": {
