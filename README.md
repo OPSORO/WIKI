@@ -4,7 +4,7 @@
 
 Welcome to the [OPSORO-WIKI](http://wiki.opsoro.be)!
 
-This wiki is meant to easily guide you through the whole process of making your own social robot(s). 
+This wiki is meant to easily guide you through the whole process of making your own social robot(s).
 
 First, please read the 'Rules of Thumb' to make sure you do not oversee the basic & necessary steps. You will find all necessary design files on our OPSORO [GitHub](http://github.opsoro.be) account.
 
