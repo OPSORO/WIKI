@@ -14,5 +14,5 @@
     * [Raspberry Pi](installation/raspberry_pi.md)
 
 ## Developers
-* App building
+* [App building](app-building.md)
 
