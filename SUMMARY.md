@@ -12,7 +12,6 @@
     * [Turn](modules/turn.md)
 * [Installation](installation.md)
     * [Raspberry Pi](installation/raspberry_pi.md)
-* [Developers](developers.md)
 
 ## Developers
 * App building
