@@ -26,25 +26,307 @@
     <script type="text/javascript" src="../_static/doctools.js"></script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="opsoro.hardware" href="hardware.html" />
-    <link rel="prev" title="Internal Parts" href="index.html" />
+    <link rel="next" title="opsoro.sound" href="sound.html" />
+    <link rel="prev" title="opsoro.module" href="module.html" />
    
-  <link rel="stylesheet" href="../_static/custom.css" type="text/css" />
-  
   
   <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
 
   </head>
-  <body role="document">
-  
+  <body role="document">  
 
     <div class="document">
       <div class="documentwrapper">
         <div class="bodywrapper">
           <div class="body" role="main">
             
-  <div class="section" id="opsoro-server">
-<span id="sec-modules-server"></span><h1>opsoro.server<a class="headerlink" href="#opsoro-server" title="Permalink to this headline">¶</a></h1>
+  <div class="section" id="module-opsoro.server">
+<span id="opsoro-server"></span><span id="sec-modules-server"></span><h1>opsoro.server<a class="headerlink" href="#module-opsoro.server" title="Permalink to this headline">¶</a></h1>
+<dl class="class">
+<dt id="opsoro.server.AdminUser">
+<em class="property">class </em><code class="descclassname">opsoro.server.</code><code class="descname">AdminUser</code><a class="reference internal" href="../_modules/opsoro/server.html#AdminUser"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#opsoro.server.AdminUser" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">object</span></code></p>
+<dl class="method">
+<dt id="opsoro.server.AdminUser.get_id">
+<code class="descname">get_id</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/opsoro/server.html#AdminUser.get_id"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#opsoro.server.AdminUser.get_id" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="opsoro.server.AdminUser.is_active">
+<code class="descname">is_active</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/opsoro/server.html#AdminUser.is_active"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#opsoro.server.AdminUser.is_active" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="opsoro.server.AdminUser.is_admin">
+<code class="descname">is_admin</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/opsoro/server.html#AdminUser.is_admin"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#opsoro.server.AdminUser.is_admin" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="opsoro.server.AdminUser.is_anonymous">
+<code class="descname">is_anonymous</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/opsoro/server.html#AdminUser.is_anonymous"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#opsoro.server.AdminUser.is_anonymous" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="opsoro.server.AdminUser.is_authenticated">
+<code class="descname">is_authenticated</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/opsoro/server.html#AdminUser.is_authenticated"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#opsoro.server.AdminUser.is_authenticated" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="opsoro.server.Server">
+<em class="property">class </em><code class="descclassname">opsoro.server.</code><code class="descname">Server</code><a class="reference internal" href="../_modules/opsoro/server.html#Server"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#opsoro.server.Server" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">object</span></code></p>
+<dl class="method">
+<dt id="opsoro.server.Server.app_api">
+<code class="descname">app_api</code><span class="sig-paren">(</span><em>f</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/opsoro/server.html#Server.app_api"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#opsoro.server.Server.app_api" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="opsoro.server.Server.app_socket_connected">
+<code class="descname">app_socket_connected</code><span class="sig-paren">(</span><em>f</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/opsoro/server.html#Server.app_socket_connected"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#opsoro.server.Server.app_socket_connected" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="opsoro.server.Server.app_socket_disconnected">
+<code class="descname">app_socket_disconnected</code><span class="sig-paren">(</span><em>f</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/opsoro/server.html#Server.app_socket_disconnected"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#opsoro.server.Server.app_socket_disconnected" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="opsoro.server.Server.app_socket_message">
+<code class="descname">app_socket_message</code><span class="sig-paren">(</span><em>action=''</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/opsoro/server.html#Server.app_socket_message"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#opsoro.server.Server.app_socket_message" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="opsoro.server.Server.app_view">
+<code class="descname">app_view</code><span class="sig-paren">(</span><em>f</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/opsoro/server.html#Server.app_view"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#opsoro.server.Server.app_view" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="opsoro.server.Server.at_exit">
+<code class="descname">at_exit</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/opsoro/server.html#Server.at_exit"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#opsoro.server.Server.at_exit" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="opsoro.server.Server.protected_view">
+<code class="descname">protected_view</code><span class="sig-paren">(</span><em>f</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/opsoro/server.html#Server.protected_view"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#opsoro.server.Server.protected_view" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="opsoro.server.Server.register_app_blueprint">
+<code class="descname">register_app_blueprint</code><span class="sig-paren">(</span><em>bp</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/opsoro/server.html#Server.register_app_blueprint"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#opsoro.server.Server.register_app_blueprint" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="opsoro.server.Server.render_template">
+<code class="descname">render_template</code><span class="sig-paren">(</span><em>template</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/opsoro/server.html#Server.render_template"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#opsoro.server.Server.render_template" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="opsoro.server.Server.run">
+<code class="descname">run</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/opsoro/server.html#Server.run"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#opsoro.server.Server.run" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="opsoro.server.Server.setup_user_loader">
+<code class="descname">setup_user_loader</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/opsoro/server.html#Server.setup_user_loader"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#opsoro.server.Server.setup_user_loader" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="opsoro.server.Server.shutdown_server">
+<code class="descname">shutdown_server</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/opsoro/server.html#Server.shutdown_server"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#opsoro.server.Server.shutdown_server" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="opsoro.server.Server.stop_current_app">
+<code class="descname">stop_current_app</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/opsoro/server.html#Server.stop_current_app"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#opsoro.server.Server.stop_current_app" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="module-opsoro.server.request_handlers">
+<span id="opsoro-server-request-handlers"></span><span id="sec-modules-server-request-handlers"></span><h1>opsoro.server.request_handlers<a class="headerlink" href="#module-opsoro.server.request_handlers" title="Permalink to this headline">¶</a></h1>
+<dl class="class">
+<dt id="opsoro.server.request_handlers.AdminUser">
+<em class="property">class </em><code class="descclassname">opsoro.server.request_handlers.</code><code class="descname">AdminUser</code><a class="reference internal" href="../_modules/opsoro/server/request_handlers.html#AdminUser"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#opsoro.server.request_handlers.AdminUser" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">object</span></code></p>
+<dl class="method">
+<dt id="opsoro.server.request_handlers.AdminUser.get_id">
+<code class="descname">get_id</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/opsoro/server/request_handlers.html#AdminUser.get_id"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#opsoro.server.request_handlers.AdminUser.get_id" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="opsoro.server.request_handlers.AdminUser.is_active">
+<code class="descname">is_active</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/opsoro/server/request_handlers.html#AdminUser.is_active"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#opsoro.server.request_handlers.AdminUser.is_active" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="opsoro.server.request_handlers.AdminUser.is_admin">
+<code class="descname">is_admin</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/opsoro/server/request_handlers.html#AdminUser.is_admin"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#opsoro.server.request_handlers.AdminUser.is_admin" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="opsoro.server.request_handlers.AdminUser.is_anonymous">
+<code class="descname">is_anonymous</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/opsoro/server/request_handlers.html#AdminUser.is_anonymous"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#opsoro.server.request_handlers.AdminUser.is_anonymous" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="opsoro.server.request_handlers.AdminUser.is_authenticated">
+<code class="descname">is_authenticated</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/opsoro/server/request_handlers.html#AdminUser.is_authenticated"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#opsoro.server.request_handlers.AdminUser.is_authenticated" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="opsoro.server.request_handlers.RHandler">
+<em class="property">class </em><code class="descclassname">opsoro.server.request_handlers.</code><code class="descname">RHandler</code><span class="sig-paren">(</span><em>server</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/opsoro/server/request_handlers.html#RHandler"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#opsoro.server.request_handlers.RHandler" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">object</span></code></p>
+<dl class="method">
+<dt id="opsoro.server.request_handlers.RHandler.inject_opsoro_vars">
+<code class="descname">inject_opsoro_vars</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/opsoro/server/request_handlers.html#RHandler.inject_opsoro_vars"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#opsoro.server.request_handlers.RHandler.inject_opsoro_vars" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="opsoro.server.request_handlers.RHandler.page_closeapp">
+<code class="descname">page_closeapp</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/opsoro/server/request_handlers.html#RHandler.page_closeapp"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#opsoro.server.request_handlers.RHandler.page_closeapp" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="opsoro.server.request_handlers.RHandler.page_file_list">
+<code class="descname">page_file_list</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/opsoro/server/request_handlers.html#RHandler.page_file_list"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#opsoro.server.request_handlers.RHandler.page_file_list" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="opsoro.server.request_handlers.RHandler.page_index">
+<code class="descname">page_index</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/opsoro/server/request_handlers.html#RHandler.page_index"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#opsoro.server.request_handlers.RHandler.page_index" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="opsoro.server.request_handlers.RHandler.page_login">
+<code class="descname">page_login</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/opsoro/server/request_handlers.html#RHandler.page_login"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#opsoro.server.request_handlers.RHandler.page_login" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="opsoro.server.request_handlers.RHandler.page_logout">
+<code class="descname">page_logout</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/opsoro/server/request_handlers.html#RHandler.page_logout"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#opsoro.server.request_handlers.RHandler.page_logout" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="opsoro.server.request_handlers.RHandler.page_openapp">
+<code class="descname">page_openapp</code><span class="sig-paren">(</span><em>appname</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/opsoro/server/request_handlers.html#RHandler.page_openapp"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#opsoro.server.request_handlers.RHandler.page_openapp" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="opsoro.server.request_handlers.RHandler.page_shutdown">
+<code class="descname">page_shutdown</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/opsoro/server/request_handlers.html#RHandler.page_shutdown"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#opsoro.server.request_handlers.RHandler.page_shutdown" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="opsoro.server.request_handlers.RHandler.page_sockjstoken">
+<code class="descname">page_sockjstoken</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/opsoro/server/request_handlers.html#RHandler.page_sockjstoken"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#opsoro.server.request_handlers.RHandler.page_sockjstoken" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="opsoro.server.request_handlers.RHandler.page_virtual">
+<code class="descname">page_virtual</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/opsoro/server/request_handlers.html#RHandler.page_virtual"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#opsoro.server.request_handlers.RHandler.page_virtual" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="opsoro.server.request_handlers.RHandler.render_template">
+<code class="descname">render_template</code><span class="sig-paren">(</span><em>template</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/opsoro/server/request_handlers.html#RHandler.render_template"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#opsoro.server.request_handlers.RHandler.render_template" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="opsoro.server.request_handlers.RHandler.set_urls">
+<code class="descname">set_urls</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/opsoro/server/request_handlers.html#RHandler.set_urls"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#opsoro.server.request_handlers.RHandler.set_urls" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="opsoro.server.request_handlers.RHandler.show_errormessage">
+<code class="descname">show_errormessage</code><span class="sig-paren">(</span><em>error</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/opsoro/server/request_handlers.html#RHandler.show_errormessage"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#opsoro.server.request_handlers.RHandler.show_errormessage" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="module-opsoro.server.request_handlers.opsoro_data_requests">
+<span id="opsoro-server-request-handlers-opsoro-data-requests"></span><span id="sec-modules-server-request-handlers-opsoro-data-requests"></span><h1>opsoro.server.request_handlers.opsoro_data_requests<a class="headerlink" href="#module-opsoro.server.request_handlers.opsoro_data_requests" title="Permalink to this headline">¶</a></h1>
+<dl class="function">
+<dt id="opsoro.server.request_handlers.opsoro_data_requests.constrain">
+<code class="descclassname">opsoro.server.request_handlers.opsoro_data_requests.</code><code class="descname">constrain</code><span class="sig-paren">(</span><em>n</em>, <em>minn</em>, <em>maxn</em><span class="sig-paren">)</span><a class="headerlink" href="#opsoro.server.request_handlers.opsoro_data_requests.constrain" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="opsoro.server.request_handlers.opsoro_data_requests.docs_file_data">
+<code class="descclassname">opsoro.server.request_handlers.opsoro_data_requests.</code><code class="descname">docs_file_data</code><span class="sig-paren">(</span><em>app_name=None</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/opsoro/server/request_handlers/opsoro_data_requests.html#docs_file_data"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#opsoro.server.request_handlers.opsoro_data_requests.docs_file_data" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="opsoro.server.request_handlers.opsoro_data_requests.docs_file_delete">
+<code class="descclassname">opsoro.server.request_handlers.opsoro_data_requests.</code><code class="descname">docs_file_delete</code><span class="sig-paren">(</span><em>app_name</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/opsoro/server/request_handlers/opsoro_data_requests.html#docs_file_delete"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#opsoro.server.request_handlers.opsoro_data_requests.docs_file_delete" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="opsoro.server.request_handlers.opsoro_data_requests.docs_file_list">
+<code class="descclassname">opsoro.server.request_handlers.opsoro_data_requests.</code><code class="descname">docs_file_list</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/opsoro/server/request_handlers/opsoro_data_requests.html#docs_file_list"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#opsoro.server.request_handlers.opsoro_data_requests.docs_file_list" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="opsoro.server.request_handlers.opsoro_data_requests.docs_file_save">
+<code class="descclassname">opsoro.server.request_handlers.opsoro_data_requests.</code><code class="descname">docs_file_save</code><span class="sig-paren">(</span><em>app_name</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/opsoro/server/request_handlers/opsoro_data_requests.html#docs_file_save"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#opsoro.server.request_handlers.opsoro_data_requests.docs_file_save" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="opsoro.server.request_handlers.opsoro_data_requests.is_safe_path">
+<code class="descclassname">opsoro.server.request_handlers.opsoro_data_requests.</code><code class="descname">is_safe_path</code><span class="sig-paren">(</span><em>path</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/opsoro/server/request_handlers/opsoro_data_requests.html#is_safe_path"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#opsoro.server.request_handlers.opsoro_data_requests.is_safe_path" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="opsoro.server.request_handlers.opsoro_data_requests.robot_config_data">
+<code class="descclassname">opsoro.server.request_handlers.opsoro_data_requests.</code><code class="descname">robot_config_data</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/opsoro/server/request_handlers/opsoro_data_requests.html#robot_config_data"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#opsoro.server.request_handlers.opsoro_data_requests.robot_config_data" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="opsoro.server.request_handlers.opsoro_data_requests.robot_dof_data">
+<code class="descclassname">opsoro.server.request_handlers.opsoro_data_requests.</code><code class="descname">robot_dof_data</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/opsoro/server/request_handlers/opsoro_data_requests.html#robot_dof_data"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#opsoro.server.request_handlers.opsoro_data_requests.robot_dof_data" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="opsoro.server.request_handlers.opsoro_data_requests.robot_dofs_data">
+<code class="descclassname">opsoro.server.request_handlers.opsoro_data_requests.</code><code class="descname">robot_dofs_data</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/opsoro/server/request_handlers/opsoro_data_requests.html#robot_dofs_data"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#opsoro.server.request_handlers.opsoro_data_requests.robot_dofs_data" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="opsoro.server.request_handlers.opsoro_data_requests.robot_emotion">
+<code class="descclassname">opsoro.server.request_handlers.opsoro_data_requests.</code><code class="descname">robot_emotion</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/opsoro/server/request_handlers/opsoro_data_requests.html#robot_emotion"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#opsoro.server.request_handlers.opsoro_data_requests.robot_emotion" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="opsoro.server.request_handlers.opsoro_data_requests.robot_servo">
+<code class="descclassname">opsoro.server.request_handlers.opsoro_data_requests.</code><code class="descname">robot_servo</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/opsoro/server/request_handlers/opsoro_data_requests.html#robot_servo"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#opsoro.server.request_handlers.opsoro_data_requests.robot_servo" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="opsoro.server.request_handlers.opsoro_data_requests.robot_servos">
+<code class="descclassname">opsoro.server.request_handlers.opsoro_data_requests.</code><code class="descname">robot_servos</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/opsoro/server/request_handlers/opsoro_data_requests.html#robot_servos"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#opsoro.server.request_handlers.opsoro_data_requests.robot_servos" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="opsoro.server.request_handlers.opsoro_data_requests.robot_sound">
+<code class="descclassname">opsoro.server.request_handlers.opsoro_data_requests.</code><code class="descname">robot_sound</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/opsoro/server/request_handlers/opsoro_data_requests.html#robot_sound"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#opsoro.server.request_handlers.opsoro_data_requests.robot_sound" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="opsoro.server.request_handlers.opsoro_data_requests.robot_stop">
+<code class="descclassname">opsoro.server.request_handlers.opsoro_data_requests.</code><code class="descname">robot_stop</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/opsoro/server/request_handlers/opsoro_data_requests.html#robot_stop"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#opsoro.server.request_handlers.opsoro_data_requests.robot_stop" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="opsoro.server.request_handlers.opsoro_data_requests.robot_tts">
+<code class="descclassname">opsoro.server.request_handlers.opsoro_data_requests.</code><code class="descname">robot_tts</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/opsoro/server/request_handlers/opsoro_data_requests.html#robot_tts"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#opsoro.server.request_handlers.opsoro_data_requests.robot_tts" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
 </div>
 
 
@@ -52,13 +334,22 @@
         </div>
       </div>
       <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
-        <div class="sphinxsidebarwrapper"><div class="relations">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">opsoro.server</a></li>
+<li><a class="reference internal" href="#module-opsoro.server.request_handlers">opsoro.server.request_handlers</a></li>
+<li><a class="reference internal" href="#module-opsoro.server.request_handlers.opsoro_data_requests">opsoro.server.request_handlers.opsoro_data_requests</a></li>
+</ul>
+<div class="relations">
 <h3>Related Topics</h3>
 <ul>
   <li><a href="../index.html">Documentation overview</a><ul>
-  <li><a href="index.html">Internal Parts</a><ul>
-      <li>Previous: <a href="index.html" title="previous chapter">Internal Parts</a></li>
-      <li>Next: <a href="hardware.html" title="next chapter">opsoro.hardware</a></li>
+  <li><a href="../opsoro.html">OPSORO OS</a><ul>
+  <li><a href="index.html">Internal Modules</a><ul>
+      <li>Previous: <a href="module.html" title="previous chapter">opsoro.module</a></li>
+      <li>Next: <a href="sound.html" title="next chapter">opsoro.sound</a></li>
+  </ul></li>
   </ul></li>
   </ul></li>
 </ul>

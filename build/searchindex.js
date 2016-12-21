@@ -1,1 +1,0 @@
-Search.setIndex({docnames:["index","modules/hardware"],envversion:50,filenames:["index.rst","modules/hardware.rst"],objects:{},objnames:{},objtypes:{},terms:{index:0,modul:0,page:0,search:0},titles:["Welcome to OPSORO&#8217;s documentation!","opsoro.hardware"],titleterms:{document:0,hardwar:1,indic:0,opsoro:[0,1],tabl:0,welcom:0}})

@@ -7,11 +7,10 @@ Welcome to OPSORO's documentation!
 ==================================
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
    :caption: Contents:
 
-   modules/index.rst
-
+   opsoro
 
 
 Indices and tables

@@ -1,11 +1,15 @@
 .. _sec-modules:
 
 ################
-Internal Parts
+Internal Modules
 ################
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 3
 
-   server.rst
-   hardware.rst
+   apps
+   dof
+   hardware
+   module
+   server
+   sound

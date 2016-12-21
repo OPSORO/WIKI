@@ -19,6 +19,24 @@ import os, sys
 sys.path.insert(0, os.path.abspath('../../OS/src/'))
 # sys.path.append(os.path.abspath('sphinxext'))
 
+# sudo apt-get install python-sphinx
+# sphinx-apidoc [options] -o <outputdir> <sourcedir> [pathnames ...]
+# Mock import modules:
+# sudo apt-get install python-mock
+# sudo apt-get install python-mox
+import mock, sys
+MOCK_MODULES = ['smbus', 'spidev', 'flask', 'flask.ctx', 'flask_login',
+                'sockjs', 'sockjs.tornado', 'tornado', 'tornado.log',
+                'tornado.wsgi', 'tornado.ioloop', 'tornado.web',
+                'tornado.httpserver', 'pluginbase', 'lupa']
+for mod_name in MOCK_MODULES:
+    sys.modules[mod_name] = mock.Mock()
+
+# import mox as mox
+# import examplemod
+# m = mox.Mox()
+# m.StubOutWithMock(examplemod, 'read_reg')
+
 # -- Copyright date ------------------------------------------------
 from datetime import date
 
@@ -47,6 +65,8 @@ templates_path = ['_templates']
 #
 # source_suffix = ['.rst', '.md']
 source_suffix = '.rst'
+
+# source_parsers = {'.md': 'some.markdown.module.Parser'}
 
 # The master toctree document.
 master_doc = 'index'
@@ -89,12 +109,12 @@ todo_include_todos = True
 # -- Options for HTML output ----------------------------------------------
 
 # on_rtd is whether we are on readthedocs.org, this line of code grabbed from docs.readthedocs.org
-# on_rtd = os.environ.get('READTHEDOCS', None) == 'True'
+on_rtd = os.environ.get('READTHEDOCS', None) == 'True'
 
-# if not on_rtd:  # only import and set the theme if we're building docs locally
-#     import sphinx_rtd_theme
-#     html_theme = 'sphinx_rtd_theme'
-#     html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
+if not on_rtd:  # only import and set the theme if we're building docs locally
+    import sphinx_rtd_theme
+    html_theme = 'sphinx_rtd_theme'
+    html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
 
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.

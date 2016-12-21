@@ -26,24 +26,107 @@
     <script type="text/javascript" src="../_static/doctools.js"></script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="prev" title="opsoro.server" href="server.html" />
+    <link rel="next" title="opsoro.module" href="module.html" />
+    <link rel="prev" title="opsoro.dof" href="dof.html" />
    
-  <link rel="stylesheet" href="../_static/custom.css" type="text/css" />
-  
   
   <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
 
   </head>
-  <body role="document">
-  
+  <body role="document">  
 
     <div class="document">
       <div class="documentwrapper">
         <div class="bodywrapper">
           <div class="body" role="main">
             
-  <div class="section" id="opsoro-hardware">
-<span id="sec-modules-hardware"></span><h1>opsoro.hardware<a class="headerlink" href="#opsoro-hardware" title="Permalink to this headline">¶</a></h1>
+  <div class="section" id="module-opsoro.hardware">
+<span id="opsoro-hardware"></span><span id="sec-modules-hardware"></span><h1>opsoro.hardware<a class="headerlink" href="#module-opsoro.hardware" title="Permalink to this headline">¶</a></h1>
+</div>
+<div class="section" id="module-opsoro.hardware.i2c">
+<span id="opsoro-hardware-i2c"></span><span id="sec-modules-hardware-i2c"></span><h1>opsoro.hardware.i2c<a class="headerlink" href="#module-opsoro.hardware.i2c" title="Permalink to this headline">¶</a></h1>
+<dl class="class">
+<dt id="opsoro.hardware.i2c.I2C">
+<em class="property">class </em><code class="descclassname">opsoro.hardware.i2c.</code><code class="descname">I2C</code><span class="sig-paren">(</span><em>address</em>, <em>busnum=-1</em>, <em>debug=False</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/opsoro/hardware/i2c.html#I2C"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#opsoro.hardware.i2c.I2C" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">object</span></code></p>
+<dl class="method">
+<dt id="opsoro.hardware.i2c.I2C.errMsg">
+<code class="descname">errMsg</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/opsoro/hardware/i2c.html#I2C.errMsg"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#opsoro.hardware.i2c.I2C.errMsg" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="staticmethod">
+<dt id="opsoro.hardware.i2c.I2C.getPiI2CBusNumber">
+<em class="property">static </em><code class="descname">getPiI2CBusNumber</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/opsoro/hardware/i2c.html#I2C.getPiI2CBusNumber"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#opsoro.hardware.i2c.I2C.getPiI2CBusNumber" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="staticmethod">
+<dt id="opsoro.hardware.i2c.I2C.getPiRevision">
+<em class="property">static </em><code class="descname">getPiRevision</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/opsoro/hardware/i2c.html#I2C.getPiRevision"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#opsoro.hardware.i2c.I2C.getPiRevision" title="Permalink to this definition">¶</a></dt>
+<dd><p>Gets the version number of the Raspberry Pi board</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="opsoro.hardware.i2c.I2C.readList">
+<code class="descname">readList</code><span class="sig-paren">(</span><em>reg</em>, <em>length</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/opsoro/hardware/i2c.html#I2C.readList"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#opsoro.hardware.i2c.I2C.readList" title="Permalink to this definition">¶</a></dt>
+<dd><p>Read a list of bytes from the I2C device</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="opsoro.hardware.i2c.I2C.readS16">
+<code class="descname">readS16</code><span class="sig-paren">(</span><em>reg</em>, <em>little_endian=True</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/opsoro/hardware/i2c.html#I2C.readS16"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#opsoro.hardware.i2c.I2C.readS16" title="Permalink to this definition">¶</a></dt>
+<dd><p>Reads a signed 16-bit value from the I2C device</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="opsoro.hardware.i2c.I2C.readS8">
+<code class="descname">readS8</code><span class="sig-paren">(</span><em>reg</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/opsoro/hardware/i2c.html#I2C.readS8"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#opsoro.hardware.i2c.I2C.readS8" title="Permalink to this definition">¶</a></dt>
+<dd><p>Reads a signed byte from the I2C device</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="opsoro.hardware.i2c.I2C.readU16">
+<code class="descname">readU16</code><span class="sig-paren">(</span><em>reg</em>, <em>little_endian=True</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/opsoro/hardware/i2c.html#I2C.readU16"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#opsoro.hardware.i2c.I2C.readU16" title="Permalink to this definition">¶</a></dt>
+<dd><p>Reads an unsigned 16-bit value from the I2C device</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="opsoro.hardware.i2c.I2C.readU8">
+<code class="descname">readU8</code><span class="sig-paren">(</span><em>reg</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/opsoro/hardware/i2c.html#I2C.readU8"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#opsoro.hardware.i2c.I2C.readU8" title="Permalink to this definition">¶</a></dt>
+<dd><p>Read an unsigned byte from the I2C device</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="opsoro.hardware.i2c.I2C.reverseByteOrder">
+<code class="descname">reverseByteOrder</code><span class="sig-paren">(</span><em>data</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/opsoro/hardware/i2c.html#I2C.reverseByteOrder"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#opsoro.hardware.i2c.I2C.reverseByteOrder" title="Permalink to this definition">¶</a></dt>
+<dd><p>Reverses the byte order of an int (16-bit) or long (32-bit) value</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="opsoro.hardware.i2c.I2C.write16">
+<code class="descname">write16</code><span class="sig-paren">(</span><em>reg</em>, <em>value</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/opsoro/hardware/i2c.html#I2C.write16"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#opsoro.hardware.i2c.I2C.write16" title="Permalink to this definition">¶</a></dt>
+<dd><p>Writes a 16-bit value to the specified register/address pair</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="opsoro.hardware.i2c.I2C.write8">
+<code class="descname">write8</code><span class="sig-paren">(</span><em>reg</em>, <em>value</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/opsoro/hardware/i2c.html#I2C.write8"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#opsoro.hardware.i2c.I2C.write8" title="Permalink to this definition">¶</a></dt>
+<dd><p>Writes an 8-bit value to the specified register/address</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="opsoro.hardware.i2c.I2C.writeList">
+<code class="descname">writeList</code><span class="sig-paren">(</span><em>reg</em>, <em>list</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/opsoro/hardware/i2c.html#I2C.writeList"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#opsoro.hardware.i2c.I2C.writeList" title="Permalink to this definition">¶</a></dt>
+<dd><p>Writes an array of bytes using I2C format</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="opsoro.hardware.i2c.I2C.writeRaw8">
+<code class="descname">writeRaw8</code><span class="sig-paren">(</span><em>value</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/opsoro/hardware/i2c.html#I2C.writeRaw8"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#opsoro.hardware.i2c.I2C.writeRaw8" title="Permalink to this definition">¶</a></dt>
+<dd><p>Writes an 8-bit value on the bus</p>
+</dd></dl>
+
+</dd></dl>
+
 </div>
 
 
@@ -51,12 +134,21 @@
         </div>
       </div>
       <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
-        <div class="sphinxsidebarwrapper"><div class="relations">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">opsoro.hardware</a></li>
+<li><a class="reference internal" href="#module-opsoro.hardware.i2c">opsoro.hardware.i2c</a></li>
+</ul>
+<div class="relations">
 <h3>Related Topics</h3>
 <ul>
   <li><a href="../index.html">Documentation overview</a><ul>
-  <li><a href="index.html">Internal Parts</a><ul>
-      <li>Previous: <a href="server.html" title="previous chapter">opsoro.server</a></li>
+  <li><a href="../opsoro.html">OPSORO OS</a><ul>
+  <li><a href="index.html">Internal Modules</a><ul>
+      <li>Previous: <a href="dof.html" title="previous chapter">opsoro.dof</a></li>
+      <li>Next: <a href="module.html" title="next chapter">opsoro.module</a></li>
+  </ul></li>
   </ul></li>
   </ul></li>
 </ul>
