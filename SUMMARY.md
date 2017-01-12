@@ -10,11 +10,13 @@
     * [Speaker](modules/speaker.md)
     * [Eye](modules/eye.md)
     * [Turn](modules/turn.md)
-* [Installation](installation.md)
+* [Installation](installation/README.md)
     * [Raspberry Pi](installation/raspberry_pi.md)
 
 ## Developers
-* [App building](app-building.md)
-* Template
-* [Getting started](getting-started.md)
+* [App building](developers/app-building.md)
+* [Template](template.md)
+* [Getting started](developers/getting-started.md)
+
+## App building
 
