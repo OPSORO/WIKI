@@ -15,5 +15,6 @@
 
 ## Developers
 * [App building](app-building.md)
+* Template
 * [Getting started](getting-started.md)
 
