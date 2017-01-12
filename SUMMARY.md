@@ -18,5 +18,3 @@
 * [Template](template.md)
 * [Getting started](developers/getting-started.md)
 
-## App building
-
