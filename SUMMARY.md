@@ -15,4 +15,5 @@
 
 ## Developers
 * [App building](app-building.md)
+* [Getting started](getting-started.md)
 
