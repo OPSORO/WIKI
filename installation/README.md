@@ -1,14 +1,16 @@
-\# OnoSW  
+# OnoSW
+
 OPSORO OS is the software framework for \[OPSORO\]\([http://www.opsoro.be/\](http://www.opsoro.be/\)\), to be used in conjunction with \[Ono2\]\([https://github.com/cesarvandevelde/Ono2\](https://github.com/cesarvandevelde/Ono2\)\) and \[OnoHAT\]\([https://github.com/cesarvandevelde/OnoHAT\](https://github.com/cesarvandevelde/OnoHAT\)\).
 
-\# Hardware Requirements
+# Hardware Requirements
 
 * Raspberry Pi 1 model B+ \| Raspberry Pi 2 model B \| Raspberry Pi 3  
 * \[OnoHAT\]\([https://github.com/cesarvandevelde/OnoHAT\](https://github.com/cesarvandevelde/OnoHAT\)\)  
 * WiFi dongle that supports AP-mode \(e.g. \[WiPi\]\([http://be.farnell.com/element14/wipi/dongle-wifi-usb-for-raspberry/dp/2133900?ost=wipi&categoryId=700000005571\\)\](http://be.farnell.com/element14/wipi/dongle-wifi-usb-for-raspberry/dp/2133900?ost=wipi&categoryId=700000005571\)\)\)  
 * Separate power supplies for logic \(5V 2A\) and servos \(5V 10A\), these can be connected directly to the OnoHAT  
 
-\# Installation  
+# Installation
+
 1. Start with a fresh Raspbian install  
 2. Copy the contents the folder /OnoSW/ to /home/pi/OnoSW/  
 3. Copy the contents the folder /Scripts/ to /home/pi/Scripts/  
