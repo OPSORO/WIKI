@@ -1,19 +1,10 @@
 {
 	"plugins": [
-		"language-picker",
-		"theme-api",
 		"addcssjs"
 
 	],
 	"pluginsConfig": {
-		"language-picker": {
-			"grid-columns": "3"
-		},
-		"theme-api": {
-			"languages": "python, html, css, javascript",
-			"split": true,
-			"theme": "dark"
-		},
+
 		"addcssjs": {
 			"js": ["js/custom.js"],
 			"css": ["css/book.css"]
