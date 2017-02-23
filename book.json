@@ -1,0 +1,10 @@
+{"plugins": [
+  "addcssjs"
+]
+"pluginsConfig": {
+  "addcssjs": {
+    "css": ["css/book.css"]
+  }
+}
+
+}
