@@ -1,4 +1,4 @@
-# Template 
+# Template
 
 Short summary of what will happen in this section, also what we will use.
 
@@ -20,8 +20,6 @@ Short summary of what will happen in this section, also what we will use.
    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam nunc ipsum, ornare sed condimentum vitae, porta in ex. Donec vel quam non purus varius commodo. Maecenas nec mi non sapien hendrerit convallis. Cras semper lacus id libero ullamcorper, quis consequat dolor vulputate. Proin in auctor justo. Nulla pulvinar velit sit amet velit congue, et fermentum nulla convallis. Vivamus libero urna, dapibus at magna a, malesuada fermentum ante. Quisque odio sapien, hendrerit ut eros et, porttitor feugiat felis. Sed elementum lacinia mauris, sit amet ultrices mi rhoncus a. Sed fermentum purus eu sapien bibendum, sed elementum nisl consectetur. Mauris felis orci, bibendum eget sollicitudin eget, bibendum id tellus. Pellentesque in lorem eget augue scelerisque molestie quis sed metus.
 
 4. ...
-
-
 
 
 
