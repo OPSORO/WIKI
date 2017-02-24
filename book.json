@@ -6,7 +6,7 @@
 	"pluginsConfig": {
 
 		"addcssjs": {
-			"js": ["js/custom.js"],
+			
 			"css": ["css/website.css"]
 		}
 
