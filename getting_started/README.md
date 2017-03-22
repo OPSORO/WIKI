@@ -23,9 +23,3 @@
 * [ ] As indicated, wait 20 seconds until the indicator screen is green.
 * [ ] OPSORO is now safe to be plugged out
 
-
-
-
-
-
-
