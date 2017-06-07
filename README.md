@@ -1,4 +1,4 @@
-# OPSORO WIKI
+# OPSORO Wiki
 
 Welcome to the [OPSORO-WIKI](https://wiki.opsoro.be)!
 
@@ -10,6 +10,8 @@ First, please read the 'Rules of Thumb' to make sure you do not oversee the basi
 * This is the version 1.0 of the OPSORO documentation, updated at Wed Dec 07 2016.
 * If you want more information about OPSORO, please visit our [website](https://www.opsoro.be/ "website").
 * If you have any questions, please visit our [forum](https://forum.opsoro.be "forum").
+
+
 
 
 
