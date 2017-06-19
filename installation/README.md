@@ -1,12 +1,12 @@
-# OnoSW
+# Installing OPSORO OS on Raspberry Pi
 
-OPSORO OS is the software framework for \[OPSORO\]\([http://www.opsoro.be/\](http://www.opsoro.be/\)\), to be used in conjunction with \[Ono2\]\([https://github.com/cesarvandevelde/Ono2\](https://github.com/cesarvandevelde/Ono2\)\) and \[OnoHAT\]\([https://github.com/cesarvandevelde/OnoHAT\](https://github.com/cesarvandevelde/OnoHAT\)\).
+OPSORO OS is the software framework for \[OPSORO\]\([http://www.opsoro.be/\](http://www.opsoro.be/%29\), to be used in conjunction with \[Ono2\]\([https://github.com/cesarvandevelde/Ono2\](https://github.com/cesarvandevelde/Ono2%29\) and \[OnoHAT\]\([https://github.com/cesarvandevelde/OnoHAT\](https://github.com/cesarvandevelde/OnoHAT%29\).
 
 # Hardware Requirements
 
 * Raspberry Pi 1 model B+ \| Raspberry Pi 2 model B \| Raspberry Pi 3  
-* \[OnoHAT\]\([https://github.com/cesarvandevelde/OnoHAT\](https://github.com/cesarvandevelde/OnoHAT\)\)  
-* WiFi dongle that supports AP-mode \(e.g. \[WiPi\]\([http://be.farnell.com/element14/wipi/dongle-wifi-usb-for-raspberry/dp/2133900?ost=wipi&categoryId=700000005571\\)\](http://be.farnell.com/element14/wipi/dongle-wifi-usb-for-raspberry/dp/2133900?ost=wipi&categoryId=700000005571\)\)\)  
+* \[OnoHAT\]\([https://github.com/cesarvandevelde/OnoHAT\](https://github.com/cesarvandevelde/OnoHAT%29\)  
+* WiFi dongle that supports AP-mode \(e.g. \[WiPi\]\([http://be.farnell.com/element14/wipi/dongle-wifi-usb-for-raspberry/dp/2133900?ost=wipi&categoryId=700000005571\\)\](http://be.farnell.com/element14/wipi/dongle-wifi-usb-for-raspberry/dp/2133900?ost=wipi&categoryId=700000005571%29%29\)  
 * Separate power supplies for logic \(5V 2A\) and servos \(5V 10A\), these can be connected directly to the OnoHAT  
 
 # Installation
