@@ -1,13 +1,19 @@
 {
 	"plugins": [
-		"addcssjs"
-
+		"addcssjs",
+		"grid",
+		"atoc",
+		"github"
 	],
 	"pluginsConfig": {
-
 		"addcssjs": {
-			
 			"css": ["css/website.css"]
+		},
+		"github": {
+			"url": "https://github.com/OPSORO/WIKI"
+		},
+		"atoc": {
+
 		}
 
 	}
