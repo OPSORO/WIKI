@@ -2,27 +2,44 @@
 
 ## Getting started
 
-* [Introduction](README.md)
-* [Getting started](getting_started/README.md)
+* [About](faq.md)
+  * [Introduction](README.md)
+  * [Overview](getting_started/vb.md)
+  * [FAQ](faq.md)
+  * [Contribute](contribute.md)
+* [Get Started](getting_started/README.md)
   * [Rules of Thumb](getting_started/rules_of_thumb.md)
-* [FAQ](faq.md)
+  * Build a robot
+  * Connect to the robot
+  * Program the robot
+  * Examples
 
-## Assembling the hardware
+## Hardware
 
-* [Modules](modules/README.md)
+* [Module Assembly](modules/README.md)
   * [Turn](modules/turn.md)
   * [Speaker](modules/speaker.md)
   * [Heart](modules/heart.md)
   * [Eye](modules/eye.md)
+* [Skin Design](modules/skin-design.md)
+  * Papercraft
+  * Laser Cutting
+  * [Cardboard](modules/skin-design/cardboard.md)
+  * Textile
+  * Other
+* [Electronics](modules/electronics.md)
+  * Overview
+* [Shield](modules/shield.md)
+  * [Overview](modules/shield/possibilities.md)
 
-## Using the software
+## Software
 
 * [Installation](installation/README.md)
-  * [Raspberry Pi](installation/raspberry_pi.md)
+  * [Local Installation](installation/raspberry_pi.md)
 
 ## Developers
 
+* [Hardware module template](developers/hardware-module-template.md)
 * [App SDK](developers/app-building.md)
-* Hardware module template
 * [Template](template.md)
 
