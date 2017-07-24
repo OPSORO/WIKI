@@ -24,7 +24,7 @@
 * [Skin Design](modules/skin-design.md)
   * [Papercraft](modules/skin-design/papercraft.md)
   * [Cardboard](modules/skin-design/cardboard.md)
-  * Laser Cutting
+  * [Laser Cutting](modules/skin-design/laser-cutting.md)
   * Textile
   * Other
 * [Electronics](modules/electronics.md)
