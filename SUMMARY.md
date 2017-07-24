@@ -21,6 +21,9 @@
   * [Speaker](modules/speaker.md)
   * [Heart](modules/heart.md)
   * [Eye](modules/eye.md)
+  * LED Matrix
+  * Camera
+  * Motion Sensor
 * [Skin Design](modules/skin-design.md)
   * [Papercraft](modules/skin-design/papercraft.md)
   * [Cardboard](modules/skin-design/cardboard.md)
