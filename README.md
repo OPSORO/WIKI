@@ -1,4 +1,4 @@
-# ![](/images/OfficalLogoOPSORO.jpg)
+![](/images/OfficalLogoOPSORO.jpg)
 
 # OPSORO Documentation
 
@@ -17,85 +17,53 @@ First, please read the 'Rules of Thumb' to make sure you do not oversee the basi
 
 **Getting Started**
 
-About this documentation
+* About this documentation
+  * Introduction
+  * Overview
+  * Contribute
+  * FAQ
 
-    Introduction
-
-    Overview
-
-   Contribute
-
-   FAQ
-
-
-
-Get started
-
-    Build a robot
-
-    Connect to the robot
-
-    Program the robot
-
-    Examples  
+* Get started
+  * Build a robot
+  * Connect to the robot
+  * Program the robot
+  * Examples  
 
 
 **Hardware**
 
-Module Assembly
+* Module Assembly
+  * Heart
+  * Speaker
+  * Eyes
+  * Turn
+  * LED Matrix
+  * Camera
+  * Motion Detector
 
-   Heart
+* Skin Design
+  * Papercraft
+  * Cardboard
+  * 2D Lasered
+  * 3D Textile
+  * Other
 
-   Speaker
+* Electronics
+  * Scheme
 
-   Eyes
-
-   Turn
-
-   LED Matrix
-
-   Camera
-
-   Motion Detector
-
-Skin Design
-
-   Papercraft
-
-   Cardboard
-
-   2D Lasered
-
-   3D Textile
-
-   Other
-
-Electronics
-
-   Scheme
-
-Shield
-
-   Scheme
+* Shield
+  * Scheme
 
 
 
 **Software**
 
-Local Installation
+* Local Installation
+  * Install
+  * Download/burn
+  * Install ...
+  * Install ...
 
-    Install
-
-    Download/burn
-
-    Install …
-
-    Install …
-
-Developers Guide
-
-    \* Local
-
-    \* Online  
-
-
+* Developers Guide
+  * Local
+  * Online  

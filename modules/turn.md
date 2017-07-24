@@ -18,7 +18,6 @@ Rotating module
 
 
 font: proxima nova
-
 Components needed
 
 Tools needed

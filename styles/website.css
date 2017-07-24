@@ -1,11 +1,52 @@
-img{
-width:50$;
-display:block;
-margin-left:auto;
-margin-right:auto;
-border:1px solid #36c9ff;
+img {
+  /*width:50$;*/
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  /*border:1px solid #36c9ff;*/
 }
 
-tr:first{
+/*tr:first{
 background-color : #36c9ff;
+}*/
+
+@font-face {
+  font-family: 'Avenir Next';
+  src: url("../assets/fonts/AvenirNext-Regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal
+}
+
+@font-face {
+  font-family: 'Avenir Next';
+  src: url("../assets/fonts/AvenirNext-DemiBold.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal
+}
+
+@font-face {
+  font-family: 'Avenir Next';
+  src: url("../assets/fonts/AvenirNext-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal
+}
+
+.page-toc {
+  background: #eee;
+  display: inline-block;
+  padding: 2rem;
+  border-radius: 0.5rem;
+}
+.page-toc .toggle {
+  display: none;
+}
+
+.markdown-section h1, .markdown-section h2, .markdown-section h3 {
+  font-family: "Avenir Next", sans-serif;
+  font-weight: bold;
+  color: #0095FF;
+}
+
+.markdown-section h1 {
+  text-transform: uppercase;
 }
