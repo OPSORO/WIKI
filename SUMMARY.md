@@ -23,8 +23,8 @@
   * [Eye](modules/eye.md)
 * [Skin Design](modules/skin-design.md)
   * [Papercraft](modules/skin-design/papercraft.md)
-  * Laser Cutting
   * [Cardboard](modules/skin-design/cardboard.md)
+  * Laser Cutting
   * Textile
   * Other
 * [Electronics](modules/electronics.md)

@@ -5,27 +5,25 @@
     <h4>Parts needed</h4>
     <ul>
       <li>Starter Kit</li>
-      <li>Cardboard</li>
-      <li>Double sided tape</li>
+      <li>Paper</li>
+      <li>ABC</li>
     </ul>
   </div>
   <div style="flex-grow: 1;">
     <h4>Tools needed</h4>
     <ul>
-      <li>Markers</li>
+      <li>Color Printer</li>
       <li>Scissors</li>
-      <li>Paper</li>
+      <li>Glue</li>
     </ul>
   </div>
 </div>
 
-
 <!-- toc -->
 
+#### Print
+Download available skins here " link to .pdf ".
+Print the skin parts in full size.
 
-## Ideation
-Make several drawings of your robot skin design on a sheet of paper untill decided with which design you would like to continue.
-
-
-## Realistic Model
-
+#### Cut & Glue
+Cut the marked lines and fold the thin edges where indicated. Apply glue and assemble the skin.
