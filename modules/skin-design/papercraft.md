@@ -1,5 +1,6 @@
 # Papercraft Skinning
 
+
 <div style="display: flex; flex-direction: row;">
   <div style="flex-grow: 1;">
     <h4>Parts needed</h4>
@@ -19,7 +20,9 @@
   </div>
 </div>
 
+
 <!-- toc -->
+
 
 #### Print
 Download available skins here " link to .pdf ".
