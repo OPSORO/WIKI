@@ -9,7 +9,7 @@
   * [Contribute](contribute.md)
 * [Get Started](getting_started/README.md)
   * [Rules of Thumb](getting_started/rules_of_thumb.md)
-  * Build a robot
+  * [Build a robot](getting_started/build-a-robot.md)
   * Connect to the robot
   * Program the robot
   * Examples
