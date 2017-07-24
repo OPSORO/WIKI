@@ -19,7 +19,9 @@
   </div>
 </div>
 
+
 <!-- toc -->
+
 
 ## Ideation
 Make several drawings of your robot skin design on a sheet of paper untill decided with which design you would like to continue.
