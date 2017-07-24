@@ -2,13 +2,14 @@
 
 <!-- toc -->
 
-## It's not working?
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque faucibus id sem at posuere. Pellentesque scelerisque ut est ut aliquet. Aliquam varius congue est ac sodales. Quisque a erat a magna mollis interdum a eget ante. Curabitur viverra velit nibh, nec rutrum nisi vehicula sed. Mauris malesuada turpis diam, sit amet viverra justo dictum ut. Nunc laoreet tincidunt libero, non vehicula metus convallis ut.
+## Can I use OPSORO if there is no WiFi available?
+Yes. When not connected to the internet, you can use OPSORO in 'local'mode. This means that the heart will function as a hot-spot and emit a WiFi signal all by itself.
 
-## It's really not working
-Aenean sed nunc odio. Sed euismod magna quis rhoncus pulvinar. Phasellus placerat odio id lacus dictum, id tempus felis pulvinar. Aliquam eu arcu eget velit egestas cursus eget vitae orci. Aenean non iaculis elit. Quisque in nunc a ex tincidunt volutpat vitae quis nulla. Phasellus velit ipsum, eleifend sit amet porta sed, volutpat id libero. Integer ac ipsum rutrum, laoreet neque et, hendrerit arcu. Praesent vel sagittis metus, sed rhoncus dolor. Nam eu efficitur magna, et porttitor ligula.
+## Can I use OPSORO if I don't have any OPSORO hardware?
+Yes. Go to our website www.opsoro.be and navigate to the tab 'Play'. After registration you will have access to the online platform, where you can display a virtual robot model.
 
-## I don't know where I am?
-Nam quis consequat ante. Mauris non pretium erat, eget eleifend purus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Curabitur pharetra mattis nunc eget venenatis. Nunc et lacus ut lacus tempus convallis eget eget quam. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+## Can I use Arduino or other 3rd party equipment/sensors?
+Yes. The OPSORO shield gives you the ability to connect all kinds of different 3rd party equipment like: temperature sensors, makey makeys, arduinos, ...
 
-sdfds
+## Is it easy to make my own skin?
+Yes, depending on the level of detail you want to put into it. A cardboard 2D skin is typically made in less than 2 hours (from age 6). A Lasered skin can be designed and prototyped in 1 day (from age 16). You should at least calculate a full-time week to design a 3D textile robot (16+).

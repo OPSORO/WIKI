@@ -22,7 +22,7 @@
   * [Heart](modules/heart.md)
   * [Eye](modules/eye.md)
 * [Skin Design](modules/skin-design.md)
-  * Papercraft
+  * [Papercraft](modules/skin-design/papercraft.md)
   * Laser Cutting
   * [Cardboard](modules/skin-design/cardboard.md)
   * Textile
