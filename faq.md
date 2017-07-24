@@ -2,7 +2,7 @@
 
 <!-- toc -->
 
-#### Can I use OPSORO if there is no WiFi available?
+## Can I use OPSORO if there is no WiFi available?
 Yes. When not connected to the internet, you can use OPSORO in 'local'mode. This means that the heart will function as a hot-spot and emit a WiFi signal all by itself.
 
 ### Can I use OPSORO if I don't have any OPSORO hardware?
