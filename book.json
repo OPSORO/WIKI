@@ -1,8 +1,8 @@
 {
 	"plugins": [
-		"grid",
 		"atoc",
-		"github"
+		"github",
+		"adhoc"
 	],
 	"pluginsConfig": {
 		"github": {

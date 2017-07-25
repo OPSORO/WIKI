@@ -50,3 +50,30 @@ background-color : #36c9ff;
 .markdown-section h1 {
   text-transform: uppercase;
 }
+
+.iris-container {
+  position: relative;
+  width: 100%;
+  height: 0px;
+  padding-bottom: 60%;
+}
+.iris-container iframe {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+.parts-tools {
+  display: flex;
+  flex-direction: row;
+  font-size: 100%;
+}
+.parts-tools > div {
+  flex-grow: 1;
+}
+.parts-tools > div ul {
+  font-size: 90%;
+}
