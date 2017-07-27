@@ -17,7 +17,7 @@
 ## Hardware
 * [Introduction](hardware/README.md)
 * [Grid](hardware/grid.md)
-* Module Assembly
+* Modules
   * [Turn](hardware/turn.md)
   * [Speaker](hardware/speaker.md)
   * [Heart](hardware/heart.md)
@@ -37,10 +37,12 @@
   * [Laser Cutting](hardware/skin-design/laser-cutting.md)
   * Textile
   * Other
+* Accessories
 * Appendix
   * [List of tools](hardware/tools.md)
-  * [List of vendor components](hardware/vendor-components)
-  * [List of custom components](hardware/custom-components)
+  * [List of vendor components](hardware/vendor-components.md)
+  * [List of custom components](hardware/custom-components.md)
+  * Centering a servo
 
 ## Software
 

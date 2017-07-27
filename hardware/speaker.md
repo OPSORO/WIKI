@@ -24,9 +24,9 @@ straight or perpendicularly to the grid using 2 M3x10 cap screws.
 
 {% block tools %}
 * Hex key 2.5mm
-* Wire strippers
-* Dupont crimping tool
-* Soldering iron
+* [Wire strippers](../hardware/tools.md#stripper)
+* [Dupont crimping tool](../hardware/tools.md#dupont)
+* [Soldering iron](../hardware/tools.md#soldering-iron)
 {% endblock %}
 
 {% block model %}/assets/iris/eye_full test.iris/index.html{% endblock %}
