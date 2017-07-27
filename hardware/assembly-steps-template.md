@@ -18,7 +18,7 @@
 
 {% set model %}{% block model %}{% endblock %}{% endset %}
 {% if model %}
-## 3D model
+## Interactive 3D model
 <div class="iris-container">
   <iframe src="{{ model }}"></iframe>
 </div>

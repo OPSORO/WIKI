@@ -15,25 +15,32 @@
   * Examples
 
 ## Hardware
-
-* [Module Assembly](modules/README.md)
-  * [Turn](modules/turn.md)
-  * [Speaker](modules/speaker.md)
-  * [Heart](modules/heart.md)
-  * [Eye](modules/eye.md)
+* [Introduction](hardware/README.md)
+* [Grid](hardware/grid.md)
+* Module Assembly
+  * [Turn](hardware/turn.md)
+  * [Speaker](hardware/speaker.md)
+  * [Heart](hardware/heart.md)
+  * [Eye](hardware/eye.md)
   * LED Matrix
   * Camera
   * Motion Sensor
-* [Skin Design](modules/skin-design.md)
-  * [Papercraft](modules/skin-design/papercraft.md)
-  * [Cardboard](modules/skin-design/cardboard.md)
-  * [Laser Cutting](modules/skin-design/laser-cutting.md)
+* [Electronics](hardware/electronics.md)
+  * Overview
+  * [Shield](hardware/shield.md)
+  * [Overview](hardware/shield/possibilities.md)
+* [Embodiments](hardware/embodiments.md)
+  * Space Invader
+  * Eight Eyes
+  * [Papercraft](hardware/skin-design/papercraft.md)
+  * [Cardboard](hardware/skin-design/cardboard.md)
+  * [Laser Cutting](hardware/skin-design/laser-cutting.md)
   * Textile
   * Other
-* [Electronics](modules/electronics.md)
-  * Overview
-* [Shield](modules/shield.md)
-  * [Overview](modules/shield/possibilities.md)
+* Appendix
+  * [List of tools](hardware/tools.md)
+  * [List of vendor components](hardware/vendor-components)
+  * [List of custom components](hardware/custom-components)
 
 ## Software
 
@@ -45,4 +52,3 @@
 * [Hardware module template](developers/hardware-module-template.md)
 * [App SDK](developers/app-building.md)
 * [Template](template.md)
-

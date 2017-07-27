@@ -7,9 +7,9 @@
 {% block title %}Speaker module{% endblock %}
 
 {% block intro %}
-The speaker module is a x by y module that houses a miniature 4W speaker, and
-can be attached directly to the speaker output of the OpsoroHAT. The module can
-be mounted either straight or perpendicularly to the grid using 2 M3x10 cap screws.
+The speaker module houses a miniature 4W speaker which can be attached directly
+to the speaker output of the OpsoroHAT. The module can be mounted either
+straight or perpendicularly to the grid using 2 M3x10 cap screws.
 {% endblock %}
 
 {% block parts %}
@@ -33,7 +33,8 @@ be mounted either straight or perpendicularly to the grid using 2 M3x10 cap scre
 
 {% block steps %}
 ### Step 1
-Strip the insulation from both ends of the wire. Split the two conductors.
+Strip the insulation from both ends of the wire. Split the two conductors over a
+distance of 1cm on both ends.
 
 ### Step 2
 Using a dupont crimp tool, attach two crimp connectors to one end of the cable.
@@ -52,7 +53,7 @@ M3x6 cap screws. The screws attach from the back so that the screw heads are
 hidden inside once the module is finished.
 
 ### Step 6
-Blah blah 
+Blah blah
 
 
 {% endblock %}
