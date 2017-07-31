@@ -8,7 +8,7 @@ Hex key 2.5mm
 ball vs straight
 aka allen wrench
 
-## Servo tester {#servotester}
+## Servo tester {#servo-tester}
 <img src="/images/tools/servo-tester.jpg" style="width: 50%;">
 A servo tester is a small device that can be used to quickly test the
 functionality of hobby servos. They are used for centering a servo and for
