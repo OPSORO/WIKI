@@ -38,8 +38,8 @@
   * [List of tools](hardware/appendix/tools.md)
   * [List of vendor components](hardware/appendix/vendor-components.md)
   * [List of custom components](hardware/appendix/custom-components.md)
-  * Using hobby servos
-  * Centering a servo
+  * [Using hobby servos](hardware/appendix/hobby-servos.md)
+  * [Centering a servo](hardware/appendix/centering-a-servo.md)
 
 ## Software
 
