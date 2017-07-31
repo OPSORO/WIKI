@@ -1,4 +1,4 @@
-![](/assets/OPSORO_WEB-20.jpg)
+![](/images/general/OPSORO_WEB-20.jpg)
 
 # Hardware
 This chapter describes all the hardware components of the Opsoro platform.
