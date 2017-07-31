@@ -25,23 +25,20 @@
   * LED Matrix
   * Camera
   * Motion Sensor
-* [Electronics](hardware/electronics.md)
-  * Overview
-  * [Shield](hardware/shield.md)
-  * [Overview](hardware/shield/possibilities.md)
+* [OpsoroHAT](hardware/shield/README.md)
+  * [Overview](hardware/shield/README.md)
+  * [Pinout](hardware/shield/pinout.md)
+  * [Powering Robots](hardware/shield/power.md)
+  * [Communication Protocol](hardware/shield/communication-protocol.md)
 * [Embodiments](hardware/embodiments.md)
   * Space Invader
   * Eight Eyes
-  * [Papercraft](hardware/skin-design/papercraft.md)
-  * [Cardboard](hardware/skin-design/cardboard.md)
-  * [Laser Cutting](hardware/skin-design/laser-cutting.md)
-  * Textile
-  * Other
 * Accessories
 * Appendix
-  * [List of tools](hardware/tools.md)
-  * [List of vendor components](hardware/vendor-components.md)
-  * [List of custom components](hardware/custom-components.md)
+  * [List of tools](hardware/appendix/tools.md)
+  * [List of vendor components](hardware/appendix/vendor-components.md)
+  * [List of custom components](hardware/appendix/custom-components.md)
+  * Using hobby servos
   * Centering a servo
 
 ## Software
