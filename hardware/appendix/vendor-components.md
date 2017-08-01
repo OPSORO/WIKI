@@ -60,7 +60,7 @@ the Opsoro system.
 | Description                              | Price  | Purchase link        |
 |------------------------------------------|--------|----------------------|
 | Power supply 5V/7A - 35W - 2.1MM DC PLUG | €18,95 | [Kiwi][psu]          |
-| 2.1MM DC barrel jack (F) - panel mount   | €1,95  | [Kiwi][barrel]       |
+| 2.1mm DC barrel jack (F) - panel mount   | €1,95  | [Kiwi][barrel]       |
 
 [psu]: http://www.kiwi-electronics.nl/Power-Adapter-5V-7A-DC-35-Watt-100-240-AC-EU-kabel
 [barrel]: https://www.kiwi-electronics.nl/2.1mm-dc-barrel-jack-panel-mount
