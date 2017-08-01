@@ -1,7 +1,7 @@
 # List of tools
-The purpose is to give a visual overview of all tools needed to build Opsoro
-robots. The various assembly guides reference this document in order to give
-extra information on the various tools.
+The purpose of this article is to give a visual overview of all tools needed to
+build Opsoro robots. The various assembly guides reference this document in
+order to give extra information on the various tools.
 
 ## Hex key {#hexkey}
 <img src="/images/tools/hex-key.jpg" style="width: 80%;">
