@@ -4,9 +4,11 @@ robots. The various assembly guides reference this document in order to give
 extra information on the various tools.
 
 ## Hex key {#hexkey}
-Hex key 2.5mm
-ball vs straight
-aka allen wrench
+<img src="/images/tools/hex-key.jpg" style="width: 80%;">
+A hex key, also known as an allen wrench, is used to tighten or loosen hex
+socket fasteners. Hex keys have the advantage that they are a bit easier to use
+in tight spaces than a conventional screwdriver. A 2.5mm hex key is required for
+using the Opsoro system.
 
 ## Servo tester {#servo-tester}
 <img src="/images/tools/servo-tester.jpg" style="width: 50%;">
