@@ -7,22 +7,27 @@
 {% block title %}Turn module{% endblock %}
 
 {% block intro %}
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sed ante mollis, vestibulum magna sit amet, euismod turpis. Etiam laoreet felis mauris, et fermentum ipsum viverra eu. Duis dictum ipsum a orci laoreet efficitur. Nam quam velit, tincidunt luctus consectetur a, sollicitudin at diam. Sed at dictum ex, tincidunt finibus purus. Pellentesque eget metus sollicitudin, posuere lacus in, scelerisque felis. Aliquam interdum nec nibh sed porta.
+The turn module contains a single micro-size servo motor, and can be used as a
+general building block for designing social robots. For instance, the turn
+module can be used to implement an eyebrow with a single DOF. The module can be
+mounted either straight or perpendicular to the grid using 2 M3x10 cap screws.
 {% endblock %}
 
 {% block parts %}
 * 1 set of laser-cut parts (7 pieces)
 * 3&times; M3 nuts
-* 1&times; micro servo set
+* 1&times; Micro servo set
 {% endblock %}
 
 {% block tools %}
 * Hex key 2.5mm
 * Small Philips screwdriver
+
+*Optional:*
 * [Servo tester](../hardware/tools.md#servo-tester)
 {% endblock %}
 
-{% set model = true %}
+{% set model = false %}
 {% block model %}/assets/iris/turn-module.iris/index.html{% endblock %}
 
 {% block steps %}

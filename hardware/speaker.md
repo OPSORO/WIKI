@@ -1,7 +1,7 @@
 {% extends "./assembly-steps-template.md" %}
 
 {% block heroimage %}
-  ![](/assets/OPSORO_WEB-5.jpg)
+  ![](/images/general/OPSORO_WEB-5.jpg)
 {% endblock %}
 
 {% block title %}Speaker module{% endblock %}
@@ -9,7 +9,7 @@
 {% block intro %}
 The speaker module houses a miniature 4W speaker which can be attached directly
 to the speaker output of the OpsoroHAT. The module can be mounted either
-straight or perpendicularly to the grid using 2 M3x10 cap screws.
+straight or perpendicular to the grid using 2 M3x10 cap screws.
 {% endblock %}
 
 {% block parts %}
