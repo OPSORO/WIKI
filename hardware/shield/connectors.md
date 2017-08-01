@@ -1,8 +1,6 @@
+# Connectors
+![](/images/opsoro-hat/connectors.png)
 
-
-![](/images/general/OpsoroHAT_connectors.png)
-
-#OpsoroHAT pinout
 1. Power input for servos and speaker. Connect to a beefy 5V power supply.
 Pins are ground (top), and +5V (bottom).
 

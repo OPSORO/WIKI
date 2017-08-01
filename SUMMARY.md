@@ -25,15 +25,16 @@
   * LED Matrix
   * Camera
   * Motion Sensor
-* [OpsoroHAT](hardware/shield/README.md)
-  * [Overview](hardware/shield/README.md)
-  * [Pinout](hardware/shield/pinout.md)
-  * [Powering Robots](hardware/shield/power.md)
-  * [Communication Protocol](hardware/shield/communication-protocol.md)
 * [Embodiments](hardware/embodiments.md)
   * Space Invader
   * Eight Eyes
 * Accessories
+* [OpsoroHAT](hardware/shield/README.md)
+  * [Overview](hardware/shield/README.md)
+  * [Connectors](hardware/shield/connectors.md)
+  * [Powering Robots](hardware/shield/power.md)
+  * [System architecture](hardware/shield/architecture.md)
+  * [Communication Protocol](hardware/shield/communication-protocol.md)
 * Appendix
   * [List of tools](hardware/appendix/tools.md)
   * [List of vendor components](hardware/appendix/vendor-components.md)
