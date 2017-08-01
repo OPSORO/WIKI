@@ -18,6 +18,7 @@ to a certain position and stay in that position.
 
 * To control them, a pulse-width modulation signal needs to be sent. The length
 of the pulse determines the angle of the servo:
+<img src="/images/general/servo-timing.png" style="width: 75%; margin: 0;">
   * 500μs corresponds to minimum position (usually -90°)
   * 1500μs corresponds to neutral position (0°)
   * 2500μs corresponds to maximum position (usually +90°).
