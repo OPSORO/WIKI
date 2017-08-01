@@ -16,14 +16,13 @@
 </div>
 
 
-{% set model %}{% block model %}{% endblock %}{% endset %}
-{% if model %}
+{% if model|default(false) %}
 ## Interactive 3D model
 <div class="iris-container">
-  <iframe src="{{ model }}"></iframe>
+  <iframe src="{% block model %}{% endblock %}"></iframe>
 </div>
 {% endif %}
 
+{% block steps %}
 ## Assembly instructions
-
-{% block steps %}{% endblock %}
+{% endblock %}

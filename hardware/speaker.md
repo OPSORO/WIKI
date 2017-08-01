@@ -29,9 +29,12 @@ straight or perpendicularly to the grid using 2 M3x10 cap screws.
 * [Soldering iron](../hardware/tools.md#soldering-iron)
 {% endblock %}
 
+{% set model = true %}
 {% block model %}/assets/iris/eye_full test.iris/index.html{% endblock %}
 
 {% block steps %}
+{{ super() }}
+
 ### Step 1
 Strip the insulation from both ends of the wire. Split the two conductors over a
 distance of 1cm on both ends.

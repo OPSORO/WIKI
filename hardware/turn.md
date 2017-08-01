@@ -22,9 +22,12 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sed ante mollis
 * [Servo tester](../hardware/tools.md#servo-tester)
 {% endblock %}
 
+{% set model = true %}
 {% block model %}/assets/iris/turn-module.iris/index.html{% endblock %}
 
 {% block steps %}
+{{ super() }}
+
 ### Step 1
 Quisque et elit non enim fringilla cursus. Aliquam tortor erat, vestibulum vitae sagittis eget, pulvinar et ante. Sed at porttitor orci, ac porta dui.
 
