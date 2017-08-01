@@ -15,6 +15,7 @@
   * Examples
 
 ## Hardware
+
 * [Introduction](hardware/README.md)
 * [Grid](hardware/grid.md)
 * Modules
@@ -25,10 +26,10 @@
   * LED Matrix
   * Camera
   * Motion Sensor
-* [Embodiments](hardware/embodiments.md)
-  * Space Invader
-  * Eight Eyes
-* Accessories
+* Embodiments
+  * [Space Invader](hardware/embodiments/space-invader.md)
+  * [Eight Eyes](hardware/embodiments/eight-eyes.md)
+* [Accessories](hardware/accessories.md)
 * [OpsoroHAT](hardware/shield/README.md)
   * [Overview](hardware/shield/README.md)
   * [Connectors](hardware/shield/connectors.md)
