@@ -16,15 +16,15 @@ mounted either straight or perpendicular to the grid using 2 M3x10 cap screws.
 {% block parts %}
 * 1 set of laser-cut parts (7 pieces)
 * 3&times; M3 nuts
-* 1&times; Micro servo set
+* 1&times; micro servo set
 {% endblock %}
 
 {% block tools %}
-* Hex key 2.5mm
-* Small Philips screwdriver
+* hex key 2.5mm
+* small Philips screwdriver
 
 *Optional:*
-* [Servo tester](../hardware/tools.md#servo-tester)
+* [servo tester](../hardware/tools.md#servo-tester)
 {% endblock %}
 
 {% set model = false %}

@@ -14,7 +14,7 @@ straight or perpendicular to the grid using 2 M3x10 cap screws.
 
 {% block parts %}
 * 1 set of laser-cut plastic parts (6 pieces)
-* 4&times; M3x6 cap screws
+* 4&times; M3x6 cap screw
 * 6&times; M3 nuts
 * 1&times; miniature 4 Ohm 4W speaker
 * 40cm of speaker cable
@@ -23,10 +23,10 @@ straight or perpendicular to the grid using 2 M3x10 cap screws.
 {% endblock %}
 
 {% block tools %}
-* Hex key 2.5mm
-* [Wire strippers](../hardware/tools.md#stripper)
-* [Dupont crimping tool](../hardware/tools.md#dupont)
-* [Soldering iron](../hardware/tools.md#soldering-iron)
+* hex key 2.5mm
+* [wire strippers](../hardware/tools.md#stripper)
+* [DuPont crimping tool](../hardware/tools.md#dupont)
+* [soldering iron](../hardware/tools.md#soldering-iron)
 {% endblock %}
 
 {% set model = true %}

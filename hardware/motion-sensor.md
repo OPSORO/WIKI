@@ -4,37 +4,31 @@
 ![](/images/general/OPSORO_WEB-5.jpg)
 {% endblock %}
 
-{% block title %}Eye module{% endblock %}
+{% block title %}Motion sensor module{% endblock %}
 
 {% block intro %}
-The eye module is one of the most complex modules of the Opsoro platform. It
-implements a 3-DOF eyeball in a small and compact package. The eyeball itself
-can move up/down and left/right. The eyelids of the module are actuated by a
-single servo. The eye module can be attached to the grid using a single M3x10
-cap screw. Assembling this module can be tricky, so we advise you to take your
-time and to read the instructions carefully.
+> **Warning** This module is still under development. Instructions are
+> incomplete so proceed with caution.
+
+The module sensor module gives your robot the ability to detect motion near it.
+The module uses a passive infrared sensor to sense people near it. This type of
+sensor is very basic; it will only tell you that something is moving, but not
+what is moving or where. The motion sensor module can be connected to the grid
+using 2 M3x10 screws.
 {% endblock %}
 
 {% block parts %}
-* 1 set of laser-cut plastic parts (5 pieces)
-* 1&times; eye shell (printed)
-* 1&times; pivot beam (printed)
-* 2&times; eyelid (printed)
-* 3&times; micro servo set
-* 2&times; M3x6 cap screw
-* 5&times; M3x10 cap screw
-* 6&times; M3 nut
-* 20cm of 1mm steel wire
+* 1 set of laser-cut plastic parts (6 pieces)
+* 2&times; M3 nut
+* 2&times; M3x6 cap screws
+* 1&times; PIR motion module
 {% endblock %}
 
 {% block tools %}
 * hex key 2.5mm
-* small Philips screwdriver
-* small needle-nose pliers
-* diagonal cutters
 {% endblock %}
 
-{% set model = true %}
+{% set model = false %}
 {% block model %}/assets/iris/eye_full test.iris/index.html{% endblock %}
 
 {% block steps %}

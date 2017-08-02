@@ -17,9 +17,10 @@
   * [Speaker](hardware/speaker.md)
   * [Heart](hardware/heart.md)
   * [Eye](hardware/eye.md)
-  * LED Matrix
-  * Camera
-  * Motion Sensor
+  * [Button](hardware/button.md)
+  * [LED Matrix](hardware/led-matrix.md)
+  * [Camera](hardware/camera.md)
+  * [Motion Sensor](hardware/motion-sensor.md)
 * Embodiments
   * [Space Invader](hardware/embodiments/space-invader.md)
   * [Eight Eyes](hardware/embodiments/eight-eyes.md)

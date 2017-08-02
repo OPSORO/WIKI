@@ -23,19 +23,19 @@ controller.
 * 6&times; M3 nut
 * 1&times; Raspberry Pi 3 model B
 * 1&times; OpsoroHAT
-* 1&times; Panel mount 2.1mm DC barrel connector
+* 1&times; panel mount 2.1mm DC barrel connector
 * 1&times; 2-position Molex KK connector housing
 * 2&times; Molex KK female crimp contact
 * 2&times; cable ferrules
 {% endblock %}
 
 {% block tools %}
-* Hex key 2.5mm
-* Hex key 2mm
-* [Wire strippers](../hardware/tools.md#stripper)
-* [Dupont crimping tool](../hardware/tools.md#dupont)
-* Ferrule crimping tool
-* [Soldering iron](../hardware/tools.md#soldering-iron)
+* hex key 2.5mm
+* hex key 2mm
+* [wire strippers](../hardware/tools.md#stripper)
+* [DuPont crimping tool](../hardware/tools.md#dupont)
+* ferrule crimping tool
+* [soldering iron](../hardware/tools.md#soldering-iron)
 {% endblock %}
 
 {% set model = true %}
