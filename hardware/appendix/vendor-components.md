@@ -47,6 +47,16 @@ the Opsoro system.
 [crimp]: http://be.farnell.com/multicomp/2226tg/crimp-terminal-24-28awg/dp/1593529
 [dupont-kit]: https://www.iprototype.nl/products/accessoires/headers/female-crimp-headers
 
+### KK 254 connectors
+| Description                          | Price          | Purchase link        |
+|--------------------------------------|----------------|----------------------|
+| Crimp contacts                       | €0.30 (10pcs)  | [Farnell][kkcrimp]     |
+| Connector housing - 2 positions      | €0.09          | [Farnell][kk2pos]      |
+
+[kk2pos]: http://be.farnell.com/multicomp/2218t/contact-crimp-plug-26-22awg-cut/dp/1675781
+[kkcrimp]: http://be.farnell.com/multicomp/2226tg/crimp-terminal-24-28awg/dp/1593529
+
+
 ### Servos
 | Description                          | Price          | Purchase link        |
 |--------------------------------------|----------------|----------------------|
