@@ -18,9 +18,9 @@
   * [Heart](hardware/heart.md)
   * [Eye](hardware/eye.md)
   * [Button](hardware/button.md)
-  * [LED Matrix](hardware/led-matrix.md)
+  * [LED matrix](hardware/led-matrix.md)
   * [Camera](hardware/camera.md)
-  * [Motion Sensor](hardware/motion-sensor.md)
+  * [Motion sensor](hardware/motion-sensor.md)
 * Embodiments
   * [Space Invader](hardware/embodiments/space-invader.md)
   * [Eight Eyes](hardware/embodiments/eight-eyes.md)
@@ -28,7 +28,7 @@
 * [OpsoroHAT](hardware/shield/README.md)
   * [Overview](hardware/shield/README.md)
   * [Connectors](hardware/shield/connectors.md)
-  * [Powering Robots](hardware/shield/power.md)
+  * [Powering robots](hardware/shield/power.md)
   * [System architecture](hardware/shield/architecture.md)
   * [Communication Protocol](hardware/shield/communication-protocol.md)
 * Appendix
@@ -40,8 +40,21 @@
 
 ## Software
 
-* [Installation](installation/README.md)
-  * [Local Installation](installation/raspberry_pi.md)
+* [Introduction](software/README.md)
+* Installing OpsoroOS
+  * [Hardware requirements](software/hardware-requirements.md)
+  * [Installation](software/installation.md)
+  * [Connecting via WiFi](software/connecting.md)
+* Cloud platform
+* Configuring your robot
+* Apps
+  * Preferences
+  * Sound
+  * Social script
+  * Blockly
+    * Examples
+  * Lua Scripting
+    * Examples
 
 ## Developers
 
