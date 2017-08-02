@@ -2,17 +2,11 @@
 
 ## Getting started
 
-* [About](faq.md)
-  * [Introduction](README.md)
-  * [Overview](getting_started/vb.md)
-  * [FAQ](faq.md)
-  * [Contribute](contribute.md)
-* [Get Started](getting_started/README.md)
-  * [Rules of Thumb](getting_started/rules_of_thumb.md)
-  * [Build a robot](getting_started/build-a-robot.md)
-  * Connect to the robot
-  * Program the robot
-  * Examples
+* [Introduction](README.md)
+* [Overview](getting-started/overview.md)
+* [FAQ](getting-started/faq.md)
+* [About](getting-started/about.md)
+* [Contribute](getting-started/contribute.md)
 
 ## Hardware
 
