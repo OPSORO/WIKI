@@ -3,7 +3,7 @@ The purpose of this article is to give a visual overview of all tools needed to
 build Opsoro robots. The various assembly guides reference this document in
 order to give extra information on the various tools.
 
-## Hex key {#hexkey}
+## Hex key
 <img src="/images/tools/hex-key.jpg" style="width: 80%;">
 A hex key, also known as an allen wrench, is used to tighten or loosen hex
 socket fasteners. Hex keys have the advantage that they are a bit easier to use

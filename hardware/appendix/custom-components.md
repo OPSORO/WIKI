@@ -19,6 +19,8 @@ snap connectors, meaning no extra fasteners are required.
 ### LED matrix module
 
 ### Motion sensor module
+![](/images/motion-sensor-module/laser-cut.jpg)
+Cut from 3mm ABS plastic. Source file can be found [here](https://github.com/OPSORO/BUILD/blob/master/modules/pir-motion/pir-motion.3dm).
 
 ### Speaker module
 
