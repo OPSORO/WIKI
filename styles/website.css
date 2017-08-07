@@ -41,7 +41,7 @@ background-color : #36c9ff;
   display: none;
 }
 
-.markdown-section h1, .markdown-section h2, .markdown-section h3 {
+.markdown-section h1, .markdown-section h2, .markdown-section h3, .markdown-section h4 {
   font-family: "Avenir Next", sans-serif;
   font-weight: bold;
   color: #0095FF;
