@@ -27,6 +27,8 @@ Cut from 3mm ABS plastic. Source file can be found [here](https://github.com/OPS
 Cut from 3mm ABS plastic. Source file can be found [here](https://github.com/OPSORO/BUILD/blob/master/modules/pir-motion/pir-motion.3dm).
 
 ### Speaker module
+![](/images/speaker-module/laser-cut.jpg)
+Cut from 3mm ABS plastic. Source file can be found [here](https://github.com/OPSORO/BUILD/blob/master/modules/speaker/speaker_module.3dm).
 
 ### Camera module
 
