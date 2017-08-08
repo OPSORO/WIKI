@@ -11,12 +11,16 @@ snap connectors, meaning no extra fasteners are required.
 ### Button module
 
 ### Turn module
+![](/images/turn-module/laser-cut.jpg)
+Cut from 3mm ABS plastic. Source file can be found [here](https://github.com/OPSORO/BUILD/blob/master/modules/turn/turn_module.3dm).
 
 ### Eye module
 
 ### Heart module
 
 ### LED matrix module
+![](/images/led-matrix-module/laser-cut.jpg)
+Cut from 3mm ABS plastic. Source file can be found [here](https://github.com/OPSORO/BUILD/blob/master/modules/matrix/matrix_module_new.3dm).
 
 ### Motion sensor module
 ![](/images/motion-sensor-module/laser-cut.jpg)
@@ -36,3 +40,9 @@ well. Go through the holes with a small drill to clear any debris. Most holes
 are 3 mm in size, and can be cleaned up using a 3 mm drill.
 
 ### Eye module
+
+## Printed circuit boards
+
+### LED matrix PCB
+![](/images/led-matrix-module/matrix-pcb.jpg)
+Prototype. Source file can be found [here](https://github.com/OPSORO/BUILD/tree/master/modules/matrix/led-matrix-proto).

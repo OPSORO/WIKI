@@ -10,7 +10,7 @@ socket fasteners. Hex keys have the advantage that they are a bit easier to use
 in tight spaces than a conventional screwdriver. A 2.5mm hex key is required for
 using the Opsoro system.
 
-## Servo tester {#servo-tester}
+## Servo tester
 <img src="/images/tools/servo-tester.jpg" style="width: 50%;">
 A servo tester is a small device that can be used to quickly test the
 functionality of hobby servos. They are used for centering a servo and for
