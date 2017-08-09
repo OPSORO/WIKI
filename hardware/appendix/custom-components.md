@@ -17,6 +17,8 @@ Cut from 3mm ABS plastic. Source file can be found [here](https://github.com/OPS
 Cut from 3mm ABS plastic. Source file can be found [here](https://github.com/OPSORO/BUILD/blob/master/modules/turn/turn_module.3dm).
 
 ### Eye module
+![](/images/eye-module/laser-cut.jpg)
+Cut from 3mm ABS plastic. Source file can be found [here](https://github.com/OPSORO/BUILD/blob/master/modules/eye/eye_module.3dm).
 
 ### Heart module
 

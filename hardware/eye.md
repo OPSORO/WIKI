@@ -16,25 +16,26 @@ time and to read the instructions carefully.
 {% endblock %}
 
 {% block parts %}
-* 1 set of laser-cut plastic parts (5 pieces)
+* 1 set of [laser-cut plastic parts](./appendix/custom-components.md#eye-module) (5 pieces)
 * 1&times; eye shell (printed)
 * 1&times; pivot beam (printed)
 * 2&times; eyelid (printed)
-* 3&times; micro servo set
-* 2&times; M3x6 cap screw
-* 5&times; M3x10 cap screw
-* 6&times; M3 nut
+* 3&times; [micro servo set](./appendix/vendor-components.md#servos)
+* 2&times; [M3x6 cap screws](./appendix/vendor-components.md#fasteners)
+* 5&times; [M3x10 cap screws](./appendix/vendor-components.md#fasteners)
+* 6&times; [M3 nuts](./appendix/vendor-components.md#fasteners)
+* 4&times; [M3 washers](./appendix/vendor-components.md#fasteners)
 * 20cm of 1mm steel wire
 {% endblock %}
 
 {% block tools %}
-* hex key 2.5mm
+* [hex key 2.5mm](./appendix/tools.md#hex-key)
 * small Philips screwdriver
 * small needle-nose pliers
 * diagonal cutters
 {% endblock %}
 
-{% set model = true %}
+{% set model = false %}
 {% block model %}/assets/iris/eye_full test.iris/index.html{% endblock %}
 
 {% block steps %}

@@ -11,10 +11,12 @@ the Opsoro system.
 | M3x6 hex socket cap screw (DIN 912)  | €5,49 (100pcs) | [Conrad][m3x6]       |
 | M3x10 hex socket cap screw (DIN 912) | €5,49 (100pcs) | [Conrad][m3x10]      |
 | M3 nut                               | €3,79 (100pcs) | [Conrad][m3 nut]     |
+| M3 washer                            | €1,99 (100pcs) | [Conrad][m3 washer]  |
 
-[m3x6]: http://www.conrad.be/ce/nl/product/839667/TOOLCRAFT-Cilinderschroeven-M3-6-mm-Binnenzeskant-inbus-DIN-912-ISO-4762-Staal-88-gezwart-100-stuks?ref=list
-[m3x10]: http://www.conrad.be/ce/nl/product/839669/TOOLCRAFT-Cilinderschroeven-M3-10-mm-Binnenzeskant-inbus-DIN-912-ISO-4762-Staal-88-gezwart-100-stuks?ref=list
-[m3 nut]: http://www.conrad.be/ce/nl/product/1060794/Zeskantmoeren-M3-DIN-439-RVS?ref=list
+[m3x6]: http://www.conrad.be/ce/nl/product/839667
+[m3x10]: http://www.conrad.be/ce/nl/product/839669
+[m3 nut]: http://www.conrad.be/ce/nl/product/1060794
+[m3 washer]: http://www.conrad.be/ce/nl/product/521619
 
 ## Electrical components
 
