@@ -9,6 +9,8 @@ are cut from 3 mm ABS plastic. Most parts can be connected using the
 snap connectors, meaning no extra fasteners are required.
 
 ### Button module
+![](/images/button-module/laser-cut.jpg)
+Cut from 3mm ABS plastic. Source file can be found [here](https://github.com/OPSORO/BUILD/blob/master/modules/button/button_module.3dm).
 
 ### Turn module
 ![](/images/turn-module/laser-cut.jpg)
