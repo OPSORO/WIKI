@@ -45,7 +45,18 @@ using flush cutters. Holes in 3D printed parts usually require some cleanup as
 well. Go through the holes with a small drill to clear any debris. Most holes
 are 3 mm in size, and can be cleaned up using a 3 mm drill.
 
-### Eye module
+### Eye shell
+![](/images/eye-module/eye-shell.jpg)
+Printed in white PLA plastic. Source file can be found [here](https://github.com/OPSORO/BUILD/blob/master/modules/eye/shell.stl).
+
+### Eyelid
+![](/images/eye-module/eye-lid.jpg)
+Printed in white PLA plastic. Source file can be found [here](https://github.com/OPSORO/BUILD/blob/master/modules/eye/lid.stl).
+
+### Pivot beam
+![](/images/eye-module/pivot-beam.jpg)
+Printed in white PLA plastic. Source file can be found [here](https://github.com/OPSORO/BUILD/blob/master/modules/eye/pivot_beam.stl).
+
 
 ## Printed circuit boards
 
