@@ -3,7 +3,6 @@
 ## Getting started
 
 * [Introduction](README.md)
-* [Overview](getting-started/overview.md)
 * [FAQ](getting-started/faq.md)
 * [About](getting-started/about.md)
 * [Contribute](getting-started/contribute.md)
