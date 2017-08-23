@@ -35,6 +35,8 @@ Cut from 3mm ABS plastic. Source file can be found [here](https://github.com/OPS
 Cut from 3mm ABS plastic. Source file can be found [here](https://github.com/OPSORO/BUILD/blob/master/modules/speaker/speaker_module.3dm).
 
 ### Camera module
+![](/images/camera-module/laser-cut.jpg)
+Cut from 3mm ABS plastic. Source file can be found [here](https://github.com/OPSORO/BUILD/blob/master/modules/camera/camera.3dm).
 
 ## 3D-printed components
 Some parts of the Opsoro system are 3D printed using a hobby-grade 3D printer.
