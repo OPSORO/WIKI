@@ -58,5 +58,4 @@
 ## Developers
 
 * [Hardware module template](developers/hardware-module-template.md)
-* [App SDK](developers/api-documentation.md)
-* [Template](template.md)
+* [Software API](developers/api-documentation.md)
