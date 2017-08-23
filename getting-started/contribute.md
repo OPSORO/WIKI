@@ -6,6 +6,7 @@ collaboration efforts and contributions! Here are some things we could use your
 help with:
 
 * Create new apps
+* Contribute features and fixes to Opsoro-OS
 * Design custom hardware modules
 * Share your custom robot designs with us
 * Help us improved the documentation

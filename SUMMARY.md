@@ -3,8 +3,8 @@
 ## Getting started
 
 * [Introduction](README.md)
-* [FAQ](getting-started/faq.md)
 * [About](getting-started/about.md)
+* [FAQ](getting-started/faq.md)
 * [Contribute](getting-started/contribute.md)
 
 ## Hardware
@@ -58,5 +58,5 @@
 ## Developers
 
 * [Hardware module template](developers/hardware-module-template.md)
-* [App SDK](developers/app-building.md)
+* [App SDK](developers/api-documentation.md)
 * [Template](template.md)
